@@ -23,6 +23,7 @@ namespace HotelBookingAPI
             builder.Services.AddScoped<AmenityRepository>();
             builder.Services.AddScoped<RoomAmenityRepository>();
             builder.Services.AddScoped<HotelSearchRepository>();
+            builder.Services.AddScoped<ReservationRepository>();
 
 
             builder.Services.AddControllers().AddJsonOptions(options =>

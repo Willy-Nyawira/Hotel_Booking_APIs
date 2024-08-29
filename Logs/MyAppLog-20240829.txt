@@ -1,0 +1,2 @@
+2024-08-29 14:16:38.388 +03:00 [INF] Request Received for CalculateRoomCosts: {"RoomIDs":[1,4],"CheckInDate":"2024-08-30T00:00:00.0000000","CheckOutDate":"2024-09-03T00:00:00.0000000","$type":"RoomCostsDTO"}
+2024-08-29 14:53:32.046 +03:00 [INF] Request Received for CreateReservation: {"UserID":1,"RoomIDs":[1,4],"CheckInDate":"2024-08-30T00:00:00.0000000","CheckOutDate":"2024-09-03T00:00:00.0000000","$type":"CreateReservationDTO"}
