@@ -1,0 +1,7 @@
+2024-08-28 11:52:34.040 +03:00 [INF] Request Received for AddUser: {"Email":"nyawiramwangi394@gmail.com","Password":"1234","$type":"CreateUserDTO"}
+2024-08-28 11:52:48.758 +03:00 [INF] AddUser Response From Repository: {"UserId":1,"Message":"User Created Successfully","IsCreated":true,"$type":"CreateUserResponseDTO"}
+2024-08-28 11:55:58.265 +03:00 [INF] Request Received for AssignRole: {"UserID":1,"RoleID":1,"$type":"UserRoleDTO"}
+2024-08-28 11:55:58.743 +03:00 [INF] AssignRole Response From Repository: {"Message":"User Role Assigned","IsAssigned":true,"$type":"UserRoleResponseDTO"}
+2024-08-28 11:56:49.341 +03:00 [INF] Request Received for GetAllUsers, IsActive: True
+2024-08-28 11:57:19.721 +03:00 [INF] Request Received for GetUserById, ID: 1
+2024-08-28 11:58:03.225 +03:00 [INF] Request Received for LoginUser {"Email":"nyawiramwangi394@gmail.com","Password":"1234","$type":"LoginUserDTO"}
